@@ -1,0 +1,10 @@
+import React from 'react'
+import './ServiceSingle.css'
+
+const ServiceSingle = () => {
+	return (
+		<div>ServiceSingle</div>
+	)
+}
+
+export default ServiceSingle
