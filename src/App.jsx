@@ -38,7 +38,7 @@ function App() {
         <Route path='/blog' element={<Blog/>}/>
         <Route path='/blogSingle' element={<BlogSingle/>}/>
         <Route path='/contact' element={<Contact/>}/>
-        <Route path='/notfound' element={<NotFound/>}/>
+        <Route path='*' element={<NotFound/>}/>
         <Route path='/licenses' element={<Licenses/>}/>
         <Route path='/changelog' element={<Changelog/>}/>
         <Route path='/password' element={<Password/>}/>
