@@ -1,0 +1,38 @@
+.container{
+	box-sizing: border-box;
+}
+.NewsLetter{
+	background-image: url(../assets/kokrasm.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 80px;
+	width: 90%;
+	height: 300px;
+	margin: 0 auto;
+	align-items: center;
+	justify-content: space-around;
+	display: flex;
+}
+.NewsLetter h2{
+	color: #FFFFFF;
+	font-size: 50px;
+	font-weight: 700;
+}
+.NewsLetter input{
+	background-color: #FFFFFF;
+	color: #ABABAB;
+	padding: 18px 90px 18px 20px;
+	border: none;
+	border-radius: 16px;
+}
+.NewsLetter button{
+	background: #274C5B;
+	border: none;
+	border-radius: 16px;
+	padding: 18px 25px 18px 25px;
+	color: #FFFFFF;
+}
+.contact{
+	display: flex;
+	gap: 10px;
+}
