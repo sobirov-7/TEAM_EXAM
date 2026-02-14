@@ -1,0 +1,75 @@
+.BlogSingle h2{
+	font-size: 35px;
+}
+.BlogSingle h1{
+font-weight: 800;
+font-size: 50px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #274C5B;
+}
+.BlogSingle p{
+	font-weight: 400;
+font-size: 20px;
+line-height: 165%;
+letter-spacing: 0%;
+}
+.BlogSingle li{
+	font-weight: 400;
+font-size: 20px;
+line-height: 165%;
+letter-spacing: 0%;
+color: #525C60;
+}
+.BlogSingle{
+	justify-content: center;
+	padding: 30px 200px 30px 200px;
+}
+.BlogSingle h3{
+	color: #274C5B;
+font-weight: 700;
+font-style: Bold;
+font-size: 20px;
+line-height: 165%;
+letter-spacing: 0%;
+text-align: center;
+background-color: #F1EDEA;
+border-radius: 30px;
+padding: 40px 10px 40px 10px;
+}
+.box45{
+  width: 100%;
+  height: 650px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  background-image: url("../../assets/Image (6).svg");
+}
+.OrganFood small{
+	color: #274C5B;
+	font-size: 16px;
+
+}
+.OrganFood p{
+	font-weight: 400;
+font-size: 20px;
+line-height: 165%;
+letter-spacing: 0%;
+}
+.OrganFood{
+	justify-content: center;
+	padding: 60px 70px 60px 70px;
+	z-index: 2;
+	position: relative;
+	left: 270px;
+	top: -70px;
+	background-color: white;
+	width: 900px;
+	border-radius: 30px;
+	box-shadow: 0px 14px 36px 0px #CCCCCC40;
+
+}
+.OrganFood h2{
+	font-size: 50px;
+}

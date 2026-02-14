@@ -1,0 +1,49 @@
+.box42{
+  width: 100%;
+  height: 450px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  background-image: url("../../assets/Background.jpg");
+}
+.containerImg{
+  padding: 80px 25px 25px 80px;
+	width: 80%;
+}
+.containerText{
+  padding: 0 270px 0 270px;
+	text-align: start;
+}
+.boxCards{
+  padding: 50px 270px 50px 270px;
+	align-items: center;
+}
+.boxCard1{
+	display: flex;
+	gap: 40px;
+}
+.boxText1{
+	padding: 75px 10px 60px 10px;
+}
+.boxText1 h3{
+	color: #274C5B;
+	font-weight: 500;
+	font-size: 22px;
+}
+.boxText1 p{
+font-weight: 400;
+font-size: 16px;
+line-height: 165%;
+letter-spacing: 0%;
+}
+.boxCards h2{
+	font-size: 35px;
+}
+.boxCards p{
+font-weight: 400;
+font-size: 18px;
+line-height: 165%;
+letter-spacing: 0%;
+
+}

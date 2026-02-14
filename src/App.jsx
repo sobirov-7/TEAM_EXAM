@@ -24,13 +24,14 @@ function App() {
 
   return (
     <div>
+      
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/shop' element={<Shop/>}/>
-        <Route path='/shopsingle' element={<ShopSingle/>}/>
-        <Route path='/service' element={<Service/>}/>
+        <Route path='/shop/:id' element={<ShopSingle/>}/>
+        <Route path='/services' element={<Service/>}/>
         <Route path='/servicesingle' element={<ServiceSingle/>}/>
         <Route path='/potfolio' element={<Portfolio/>}/>
         <Route path='/portfoliosingle' element={<PorfolioSingle/>}/>
