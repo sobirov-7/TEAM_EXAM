@@ -1,21 +1,16 @@
 import React from 'react';
 import './Service.css';
+import logo15 from '../../assets/Image (11).png'
+import NewsLetter from '../../components/NewsLetter';
+
 
 const Service = () => {
     return (
         <div className="service-container">
-            <section className="hero-section">
-                <div className="hero-content">
-                    <span className="subtitle">Organic Only</span>
-                    <h1 className="main-title">Everyday Fresh & Clean</h1>
-                    <p className="description">
-                        Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the.
-                    </p>
-                    <button className="play-button">
-                        <div className="play-icon">▶</div>
-                    </button>
-                </div>
-            </section>
+            <div className="box100">
+                <h1>Services</h1>
+            </div>
+            
 
  
             <section className="features-section">
@@ -45,6 +40,7 @@ const Service = () => {
                     </div>
 
                     <div className="features-image">
+                        <img src={logo15} alt="" />
                         
                     </div>
 
@@ -71,6 +67,22 @@ const Service = () => {
                 <div className="action-area">
                     <button className="explore-btn">Explore More ➔</button>
                 </div>
+
+                <section className="hero-section">
+                <div className="hero-content">
+                    <span className="subtitle">Organic Only</span>
+                    <h1 className="main-title">Everyday Fresh & Clean</h1>
+                    <p className="description">
+                        Simply dummy text of the printing and typesetting industry. Lorem had ceased to been the industry's standard dummy text ever since the.
+                    </p>
+                    <button className="play-button">
+                        <div className="play-icon">▶</div>
+                    </button>
+      
+                </div>
+
+            </section>
+				
             </section>
         </div>
     );

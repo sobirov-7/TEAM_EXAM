@@ -27,16 +27,16 @@ function App() {
       
       <Navbar/>
       <Routes>
-      
+       
        
 
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/shop' element={<Shop/>}/>
         <Route path='/shopsingle' element={<ShopSingle/>}/>
-        <Route path='/service' element={<Service/>}/>
+        <Route path='/services' element={<Service/>}/>
         <Route path='/servicesingle' element={<ServiceSingle/>}/>
-        <Route path='/potfolio' element={<Portfolio/>}/>
+        <Route path='/portfolio' element={<Portfolio/>}/>
         <Route path='/portfoliosingle' element={<PorfolioSingle/>}/>
         <Route path='/team' element={<Team/>}/>
         <Route path='/blog' element={<Blog/>}/>

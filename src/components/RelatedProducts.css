@@ -1,0 +1,95 @@
+/* Asosiy konteyner - Grid tizimi */
+.shop-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Moslashuvchan ustunlar */
+  gap: 30px;
+  padding: 40px;
+  background-color: #fff;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Karta dizayni */
+.product-card {
+  background-color: #f9f8f8; /* Och kulrang fon */
+  border-radius: 20px;
+  padding: 25px;
+  position: relative;
+  transition: box-shadow 0.3s ease;
+  border: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.product-card:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+/* Teg (Tag) dizayni */
+.tag {
+  background-color: #274c5b; /* To'q ko'k rang */
+  color: white;
+  padding: 5px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-block;
+}
+
+/* Rasm joylashuvi */
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.image-container img {
+  width: 100%;
+  max-width: 180px;
+  height: auto;
+  object-fit: contain;
+  mix-blend-mode: multiply; /* Rasmni fon bilan aralashtirish uchun */
+}
+
+/* Mahsulot nomi */
+.product-title {
+  color: #274c5b;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  font-family: 'Roboto', sans-serif; /* Yoki loyihangizdagi font */
+}
+
+.divider {
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+    margin-bottom: 15px;
+}
+
+/* Footer qismi (Narx va Reyting) */
+.product-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price-box {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.old-price {
+  color: #b8b8b8;
+  text-decoration: line-through;
+  font-size: 12px;
+}
+
+.new-price {
+  color: #274c5b;
+  font-weight: 800;
+  font-size: 16px;
+}
