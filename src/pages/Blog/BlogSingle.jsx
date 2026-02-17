@@ -3,7 +3,8 @@ import './BlogSingle.css'
 
 const BlogSingle = () => {
 	return (
-		<div>BlogSingle</div>
+		<></>
+		
 	)
 }
 
