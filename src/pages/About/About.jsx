@@ -6,10 +6,7 @@ import { GiReturnArrow } from "react-icons/gi";
 import './About.css'
 import img1 from '../../assets/About.img1.svg'
 import img2 from '../../assets/img11.svg'
-import icon1 from '../../assets/ab.svg'
-import icon2 from '../../assets/aa.svg'
-import icon3 from '../../assets/basket.svg'
-import icon4 from '../../assets/icon.svg'
+
 import img3 from '../../assets/fruit.svg'
 import img4 from '../../assets/man.svg'
 import img5 from '../../assets/girl.svg'
