@@ -10,6 +10,10 @@
     background-image: url(../assets/Homeimg1.svg)
 } */
 
+.homepg_texts{
+    flex-wrap: wrap;
+}
+
 .Homepg2_section2_texts {
   display: flex;
   gap: 20px;
@@ -143,6 +147,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
+  flex-wrap: wrap;
 }
 
 .homepg_section4 .product-card {

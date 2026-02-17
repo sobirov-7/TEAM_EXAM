@@ -73,7 +73,7 @@ const Home = () => {
           <h2 class="title">Our Products</h2>
 
           <div class="products-grid">
-            {/* card  */}
+            {/* carddd  */}
             <div class="product-card">
               <span class="badge">Vegetable</span>
 
