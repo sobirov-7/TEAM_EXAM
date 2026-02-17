@@ -7,9 +7,10 @@ import logo102 from '../../assets/Image (20).png'
 import logo103 from '../../assets/Image (21).png'
 import logo104 from '../../assets/Image (22).png'
 import logo105 from '../../assets/Image (23).png'
+import { Link } from 'react-router-dom'
 
 
-const blogData = [
+export const blogData = [
     {
         id: 1,
         date: "25",
@@ -89,9 +90,9 @@ const Blog = () => {
                                 </div>
                                 <h3 className="blog-title">{blog.title}</h3>
                                 <p className="blog-desc">{blog.desc}</p>
-                                <a href="/blogsingle" className="read-more">
+                                <Link to={`/blog/${blog.id}`} className="read-more">
                                     Read More <span className="arrow">→</span>
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     ))}

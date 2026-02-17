@@ -37,7 +37,7 @@ function App() {
         <Route path='/portfolio/:id' element={<PorfolioSingle/>}/>
         <Route path='/team' element={<Team/>}/>
         <Route path='/blog' element={<Blog/>}/>
-        <Route path='/blogSingle' element={<BlogSingle/>}/>
+        <Route path='/blog/:id' element={<BlogSingle/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='*' element={<NotFound/>}/>
         <Route path='/licenses' element={<Licenses/>}/>

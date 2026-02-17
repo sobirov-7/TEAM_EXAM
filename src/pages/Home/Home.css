@@ -144,10 +144,11 @@
 }
 
 .homepg_section4 .products-grid {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
   flex-wrap: wrap;
+  padding: 70px;
 }
 
 .homepg_section4 .product-card {
@@ -156,6 +157,7 @@
   padding: 25px;
   text-align: left;
   position: relative;
+  flex-wrap: wrap;
 }
 
 .homepg_section4 .badge {
@@ -395,4 +397,17 @@
   width: 100%;
   height: auto;
   margin:  100px 0px 100px 0px;
+}
+@media (max-width:768px) {
+  *{
+    box-sizing: border-box;
+    overflow-x: hidden;
+  }
+  .homepg_section4 .products-grid{
+    justify-content: center;
+    padding: 10px;
+  }
+  .homepg_section7{
+    width: auto;
+  }
 }

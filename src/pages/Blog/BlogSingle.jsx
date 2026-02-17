@@ -1,23 +1,25 @@
-import React from 'react'
-import './BlogSingle.css'
+import { useParams } from 'react-router-dom'
 import NewsLetter from '../../components/NewsLetter'
+import { blogData } from './Blog'
+import './BlogSingle.css'
 
 const BlogSingle = () => {
 
-	// let { id } = useParams();
+	let { id } = useParams();
 
-  // let single = products.find(
-  //   (item) => item.id === Number(id)
-  // );
+  let single2 = blogData.find(
+    (item) => item.id === Number(id)
+  );
+	
 	return (
 		<>
 
 		<div className="box45">
-					{/* <img src={single.image}  /> */}
+					<img src={single2.image}  />
       </div>
 			<div className="OrganFood">
 				<small>Posted On: January 6, 2022  By Rachi Card</small> <br /> <br />
-				{/* <h2>{single.title}</h2> <br /><br /> */}
+				<h2>{single2.title}</h2> <br /><br />
 				<p>Established fact that a reader will be distracted by the readable content of a page <br /> when looking a layout. The point of using Lorem Ipsum is that it has a more-or-less <br /> normal distribution of letters, as opposed </p>
 			</div>
 		<div className='BlogSingle'>

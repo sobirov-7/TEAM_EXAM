@@ -44,7 +44,7 @@ padding: 40px 10px 40px 10px;
   justify-content: center;
   display: flex;
   text-align: center;
-  background-image: url("../../assets/Image (6).svg");
+  /* background-image: url("../../assets/Image (6).svg"); */
 }
 .OrganFood small{
 	color: #274C5B;

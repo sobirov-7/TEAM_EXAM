@@ -52,6 +52,8 @@ const Navbar = () => {
                                 <Link to={'/portfolio'} onClick={closeMobileMenu}>Portfolio</Link>
                                 <Link to={'/blog'} onClick={closeMobileMenu}>Blog</Link>
                                 <Link to={'/contact'} onClick={closeMobileMenu}>Contact</Link>
+                                <Link to={'/password'} onClick={closeMobileMenu}>Password</Link>
+                                <Link to={'/licenses'} onClick={closeMobileMenu}>Licenses</Link>
                             </div>
                         </li>
 

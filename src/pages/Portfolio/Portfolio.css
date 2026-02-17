@@ -1,8 +1,11 @@
+
+
 .portfolio-container {
-    display: grid;
+    flex-wrap: wrap;
+    display: flex;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    padding: 40px;
+    gap: 50px;
+    padding: 140px;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -40,8 +43,9 @@
     color: #274C5B;
 }
 .overlay{
-    width: 300px;
-    height: 210px;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 70%;
     background-color: rgb(255, 249, 249);
     opacity: 0;                
     visibility: hidden; 
@@ -68,4 +72,10 @@
 .port-card:hover .overlay{
     opacity: 0.8;            
     visibility: visible;
+}
+@media (max-width:768px) {
+    .portfolio-container{
+        padding: 10px;
+        justify-content: center;
+    }
 }
