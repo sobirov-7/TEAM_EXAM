@@ -1,70 +1,87 @@
-import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
-import logo from '../assets/Logo.svg'
-import './Navbar.css'
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import logo from '../assets/Logo.svg';
+import './Navbar.css';
 
-
-import { FaSearch, FaShoppingCart } from "react-icons/fa"; 
+import { FaSearch, FaShoppingCart, FaBars, FaTimes } from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
 
 const Navbar = () => {
+    const [click, setClick] = useState(false);
+
+
+    const handleClick = () => setClick(!click);
+
+
+    const closeMobileMenu = () => setClick(false);
+
     return (
         <header className="navbar-header">
             <nav className="navbar-container">
 
-                <div className="navbar-logo">
-                    <img src={logo} alt="" />
+        
+                <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+                    <img src={logo} alt="Organick" />
+                    <span></span>
+                </Link>
+
+ 
+                <div className="menu-icon" onClick={handleClick}>
+                    {click ? <FaTimes /> : <FaBars />}
                 </div>
 
-                <ul className="navbar-links">
-                    <li><Link to={'/'}>Home</Link></li>
-                    <li><Link to={'/about'}>About</Link></li>
+
+                <div className={click ? "nav-menu active" : "nav-menu"}>
                     
+                    <ul className="navbar-links">
+                        <li className='nav-item'>
+                            <Link to={'/'} className='nav-link' onClick={closeMobileMenu}>Home</Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link to={'/about'} className='nav-link' onClick={closeMobileMenu}>About</Link>
+                        </li>
 
-                    <li className="dropdown">
-						<p>Pages</p>
+                 
+                        <li className="nav-item dropdown">
+                            <div className="dropdown-trigger">
+                                Pages <IoIosArrowDown />
+                            </div>
+                            <div className='dropdown-menu'>
+                                <Link to={'/services'} onClick={closeMobileMenu}>Services</Link>
+                                <Link to={'/team'} onClick={closeMobileMenu}>Team</Link>
+                                <Link to={'/portfolio'} onClick={closeMobileMenu}>Portfolio</Link>
+                                <Link to={'/blog'} onClick={closeMobileMenu}>Blog</Link>
+                                <Link to={'/contact'} onClick={closeMobileMenu}>Contact</Link>
+                            </div>
+                        </li>
 
-						<div className='dropdown-menu'>
-							<Link to={'/services'}>
-							<option value="Service">Service</option>
-							</Link>
-                            <Link to={'/team'}>
-							<option value="Team">Team</option>
-							</Link>
-                            <Link to={'/portfolio'}>
-							<option value="Portfolio">Portfolio</option>
-							</Link>
-                            <Link to={'/blog'}>
-							<option value="Blog">Blog</option>
-							</Link>
-                            <Link to={'/contact'}>
-							<option value="Contact">Contact</option>
-							</Link>
-						</div>
-                    </li>
+                        <li className='nav-item'>
+                            <Link to={'/shop'} className='nav-link' onClick={closeMobileMenu}>Shop</Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link to={'/projects'} className='nav-link' onClick={closeMobileMenu}>Projects</Link>
+                        </li>
+                        <li className='nav-item'>
+                            <Link to={'/news'} className='nav-link' onClick={closeMobileMenu}>News</Link>
+                        </li>
+                    </ul>
 
-                    <li><Link to={'/shop'}>Shop</Link></li>
-                    <li><Link to={'/projects'}>Projects</Link></li>
-                    <li><Link to={'/news'}>News</Link></li>
-                </ul>
-
-
-                <div className="navbar-actions">
-                    <div className="search-box">
-                        <input type="text" className="search-input" />
-                        <div className="search-btn">
-                            <FaSearch color="white" />
+     
+                    <div className="navbar-actions">
+                        <div className="search-box">
+                            <input type="text" className="search-input" placeholder="Search..." />
+                            <div className="search-btn">
+                                <FaSearch color="white" />
+                            </div>
                         </div>
-                    </div> 
 
-        
-                    <div className="cart-box">
-                        <div className="cart-circle">
-                            <FaShoppingCart color="white" />
+                        <div className="cart-box">
+                            <div className="cart-circle">
+                                <FaShoppingCart color="white" />
+                            </div>
+                            <span className="cart-text">Cart (0)</span>
                         </div>
-                        <span className="cart-text">Cart (0)</span>
                     </div>
-
                 </div>
             </nav>
         </header>
