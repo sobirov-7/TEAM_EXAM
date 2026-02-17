@@ -7,6 +7,7 @@
 .section1_aboutpg img{
     width: 100%;
     height: auto;
+    flex-wrap: wrap;
 }
 
 .section2_aboutpg {
@@ -15,6 +16,7 @@
   background: #f9f8f8;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .about_container {
@@ -94,6 +96,7 @@
   width: 100%;
   padding: 100px 0;
   background: #f9f8f8;
+  flex-wrap: wrap;
 }
 
 .section3_container {
@@ -220,6 +223,7 @@
 .section4_aboutpg {
   padding: 100px 0;
   background: #f9f8f8;
+  flex-wrap: wrap;
 }
 
 .section4_aboutpg-container {
@@ -301,6 +305,7 @@
   background: #274c5b;
   padding: 100px 0;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .section5_aboutpg-container {
@@ -358,7 +363,7 @@
 }
 
 /* Responsiveeeeeeee */
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   .section5_aboutpg-cards {
     flex-direction: column;
     align-items: center;
@@ -371,4 +376,4 @@
     flex-direction: column;
     align-items: center;
   }
-}
+} */

@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1_Contact img{
+    width: 100%;
+    height: auto;
+    padding: 0px 0px 150px 0px;
+    flex-wrap: wrap;
+}
+
+.section2_Contact{
+    display: flex;
+    gap: 75px;
+    padding: 0px 30px 0px 30px ;
+    flex-wrap: wrap;
+}
+
+.section2_Contact img{
+    width: 30%;
+    height: auto;
+}
+
+.section2_Contact{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2_Contact h1{
+    color: #274C5B;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.section2_Contact p{
+    color: #525C60;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 165%;
+    letter-spacing: 0%;
+}
+
+.section2_Contact h3{
+    color: #274C5B;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 100%;
+    letter-spacing: 0%;
+    box-shadow: 10px black;
+}
+
+
+.section3_Contact {
+  width: 80%;
+  height: 70vh;
+  padding: 120px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../assets/barg.svg);
+  background-size: cover;
+  background-position: center;
+  margin-left: 150px;
+  border-radius: 50px;
+  flex-wrap: wrap;
+}
+
+.section3_Contact_card {
+  width: 420px;
+  height: auto;
+  background: #ffffff;
+  padding: 50px 40px;
+  border-radius: 25px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+  margin-left:200px;
+}
+
+.section3_Contact_location {
+  font-family: cursive;
+  font-size: 20px;
+  color: #6ab04c;
+}
+
+.section3_Contact_title {
+  font-size: 42px;
+  font-weight: 800;
+  color: #274c5b;
+  margin: 10px 0 20px;
+}
+
+.section3_Contact_text {
+  font-size: 16px;
+  color: #7a7a7a;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.section3_Contact_item {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.section3_Contact_icon {
+  width: 40px;
+  height: 40px;
+  background: #f4f4f4;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.section3_Contact_item h4 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #274c5b;
+}
+
+.section3_Contact_item p {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #7a7a7a;
+}
+
+
+.section4_contact {
+  width: 100%;
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.section4_contact_container {
+  width: 1180px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.section4_contact_row {
+  display: flex;
+  gap: 60px;
+}
+
+.section4_contact_field {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.section4_contact_field label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #274c5b;
+  margin-bottom: 10px;
+}
+
+.section4_contact_field input,
+.section4_contact_field textarea {
+  width: 100%;
+  padding: 18px 20px;
+  border-radius: 12px;
+  border: 1px solid #7eb693;
+  font-size: 15px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.section4_contact_field input:focus,
+.section4_contact_field textarea:focus {
+  border-color: #274c5b;
+}
+
+.section4_contact_field textarea {
+  height: 220px;
+  resize: none;
+}
+
+.section4_contact_field.full {
+  width: 100%;
+}
+
+.section4_contact_btn {
+  width: 200px;
+  padding: 16px 0;
+  background: #274c5b;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.section4_contact_btn:hover {
+  background: #1d3b47;
+}
