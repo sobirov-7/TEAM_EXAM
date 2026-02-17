@@ -7,6 +7,14 @@ import img6 from '../../assets/Juice.svg'
 import img7 from '../../assets/lipton.svg'
 import img8 from '../../assets/Nuts.svg'
 import img9 from '../../assets/Banner.jpg'
+import img31 from '../../assets/banan.svg' 
+import img32 from '../../assets/brad.svg'
+import img33 from '../../assets/karam.svg'
+import img34 from '../../assets/eggs.png'
+import img35 from '../../assets/nutss.svg'
+import img36 from '../../assets/garox.svg'
+import img37 from '../../assets/tomato.svg'
+import img38 from '../../assets/qrut.svg'
 const Home = () => {
   return (
     <>
@@ -78,7 +86,7 @@ const Home = () => {
               <span class="badge">Vegetable</span>
 
               <div class="product-image">
-                <img src={img4} alt="" />
+                <img src={img33} alt="" />
               </div>
 
               <h3 class="product-title">Calabrese Broccoli</h3>
@@ -92,13 +100,81 @@ const Home = () => {
             </div>
 
             <div class="product-card">
+              <span class="badge">Banana</span>
+
+              <div class="product-image">
+                <img src={img31} alt="" />
+              </div>
+
+              <h3 class="product-title">Fresh Banana Fruites</h3>
+
+              <div class="price">
+                <span class="old">$20.00</span>
+                <span class="new">$14.00</span>
+              </div>
+
+              <div class="stars">★★★★★</div>
+            </div>
+
+            <div class="product-card">
+              <span class="badge">milliets</span>
+
+              <div class="product-image">
+                <img src={img37} alt="" />
+              </div>
+
+              <h3 class="product-title">White Nuts</h3>
+
+              <div class="price">
+                <span class="old">$20.00</span>
+                <span class="new">$15.00</span>
+              </div>
+
+              <div class="stars">★★★★★</div>
+            </div>
+
+            <div class="product-card">
               <span class="badge">Vegetable</span>
 
               <div class="product-image">
-                <img src={img4} alt="" />
+                <img src={img38} alt="" />
               </div>
 
-              <h3 class="product-title">Calabrese Broccoli</h3>
+              <h3 class="product-title">Vegan Red Tomato</h3>
+
+              <div class="price">
+                <span class="old">$20.00</span>
+                <span class="new">$17.00</span>
+              </div>
+
+              <div class="stars">★★★★★</div>
+            </div>
+
+            <div class="product-card">
+              <span class="badge">health</span>
+
+              <div class="product-image">
+                <img src={img35} alt="" />
+              </div>
+
+              <h3 class="product-title">Mung Bean</h3>
+
+              <div class="price">
+                <span class="old">$20.00</span>
+                <span class="new">$18.00</span>
+              </div>
+
+              <div class="stars">★★★★★</div>
+            </div>
+
+            <div class="product-card">
+              <span class="badge">Nuts</span>
+
+              <div class="product-image">
+                <img src={img36} alt="" />
+              </div>
+
+              <h3 class="product-title">Brown Hazelnut</h3>
 
               <div class="price">
                 <span class="old">$20.00</span>
@@ -109,98 +185,30 @@ const Home = () => {
             </div>
 
             <div class="product-card">
-              <span class="badge">Vegetable</span>
+              <span class="badge">Eggs</span>
 
               <div class="product-image">
-                <img src={img4} alt="" />
+                <img src={img32} alt="" />
               </div>
 
-              <h3 class="product-title">Calabrese Broccoli</h3>
+              <h3 class="product-title">Eggs</h3>
 
               <div class="price">
                 <span class="old">$20.00</span>
-                <span class="new">$13.00</span>
+                <span class="new">$17.00</span>
               </div>
 
               <div class="stars">★★★★★</div>
             </div>
 
             <div class="product-card">
-              <span class="badge">Vegetable</span>
+              <span class="badge">Brad</span>
 
               <div class="product-image">
-                <img src={img4} alt="" />
+                <img src={img34} alt="" />
               </div>
 
-              <h3 class="product-title">Calabrese Broccoli</h3>
-
-              <div class="price">
-                <span class="old">$20.00</span>
-                <span class="new">$13.00</span>
-              </div>
-
-              <div class="stars">★★★★★</div>
-            </div>
-
-            <div class="product-card">
-              <span class="badge">Vegetable</span>
-
-              <div class="product-image">
-                <img src={img4} alt="" />
-              </div>
-
-              <h3 class="product-title">Calabrese Broccoli</h3>
-
-              <div class="price">
-                <span class="old">$20.00</span>
-                <span class="new">$13.00</span>
-              </div>
-
-              <div class="stars">★★★★★</div>
-            </div>
-
-            <div class="product-card">
-              <span class="badge">Vegetable</span>
-
-              <div class="product-image">
-                <img src={img4} alt="" />
-              </div>
-
-              <h3 class="product-title">Calabrese Broccoli</h3>
-
-              <div class="price">
-                <span class="old">$20.00</span>
-                <span class="new">$13.00</span>
-              </div>
-
-              <div class="stars">★★★★★</div>
-            </div>
-
-            <div class="product-card">
-              <span class="badge">Vegetable</span>
-
-              <div class="product-image">
-                <img src={img4} alt="" />
-              </div>
-
-              <h3 class="product-title">Calabrese Broccoli</h3>
-
-              <div class="price">
-                <span class="old">$20.00</span>
-                <span class="new">$13.00</span>
-              </div>
-
-              <div class="stars">★★★★★</div>
-            </div>
-
-            <div class="product-card">
-              <span class="badge">Vegetable</span>
-
-              <div class="product-image">
-                <img src={img4} alt="" />
-              </div>
-
-              <h3 class="product-title">Calabrese Broccoli</h3>
+              <h3 class="product-title">Zelco Suji Elaichi Rusk</h3>
 
               <div class="price">
                 <span class="old">$20.00</span>

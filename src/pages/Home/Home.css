@@ -10,8 +10,8 @@
     background-image: url(../assets/Homeimg1.svg)
 } */
 
-.homepg_texts{
-    flex-wrap: wrap;
+.homepg_texts {
+  flex-wrap: wrap;
 }
 
 .Homepg2_section2_texts {
@@ -391,8 +391,150 @@
 
 }
 
-.Banner{
+.Banner {
   width: 100%;
   height: auto;
-  margin:  100px 0px 100px 0px;
+  margin: 100px 0px 100px 0px;
+}
+
+
+@media (max-width: 1200px) {
+  .homepg_section4 .products-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .homepg_section3_container {
+    width: 95%;
+  }
+}
+
+
+@media (max-width: 992px) {
+
+  .homepg_section3_container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image_placeholder {
+    height: 400px;
+  }
+
+  .homepg_section4 .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .homepg_section6 {
+    flex-direction: column;
+  }
+
+  .homepg_section6 img {
+    width: 80%;
+    height: auto;
+  }
+
+  .homepg_texts {
+    text-align: center;
+  }
+
+  .counter {
+    gap: 20px;
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  .homepg_section4 .products-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .homepg_section3 {
+    padding: 60px 0;
+  }
+
+  .section3_content h2 {
+    font-size: 28px;
+  }
+
+  .homepg_section4 .title {
+    font-size: 28px;
+  }
+
+  .testimonial_title {
+    font-size: 28px;
+  }
+
+  .homepg_texts h1 {
+    font-size: 32px;
+  }
+
+  .homepg_texts h3 {
+    font-size: 20px;
+  }
+
+  .homepg_texts p {
+    font-size: 16px;
+  }
+
+  .counter_item {
+    width: 140px;
+    height: 140px;
+  }
+
+  .counter_item h3 {
+    font-size: 24px;
+  }
+
+  .homepg_section7 {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  #aa,
+  #bb,
+  #cc {
+    width: 80%;
+    height: auto;
+  }
+
+  .Homepg2_section2_texts {
+    flex-direction: column;
+  }
+
+  .Homepg2_section2_texts img {
+    width: 80%;
+  }
+}
+
+
+@media (max-width: 480px) {
+
+  .section3_btn {
+    width: 100%;
+  }
+
+  .section3_feature {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .feature_icon {
+    margin-bottom: 10px;
+  }
+
+  .testimonial_text {
+    font-size: 15px;
+  }
+
+  .counter {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .products-grid{
+    padding: 0px 10px 0px 10px;
+  }
 }
