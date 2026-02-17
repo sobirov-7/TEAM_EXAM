@@ -1,22 +1,17 @@
-import React from 'react'
-import './Portfolio.css'
+import { CiCircleChevRight } from "react-icons/ci"
+import { useNavigate } from 'react-router-dom'
 import logo34 from '../../assets/Image (13).png'
 import logo35 from '../../assets/Image (14).png'
 import logo36 from '../../assets/Image (15).png'
 import logo37 from '../../assets/Image (16).png'
-import logo38 from '../../assets/Photo.png'
 import logo39 from '../../assets/Image (17).png'
-import { CiCircleChevRight } from "react-icons/ci";
+import logo38 from '../../assets/Photo.png'
 import NewsLetter from '../../components/NewsLetter'
-import { useNavigate } from 'react-router-dom'
+import './Portfolio.css'
 
 
 
-const Portfolio = () => {
-
-    let navigate = useNavigate()
-    
-    const products = [
+export const products = [
         {
             id: 1,
             title: "Green & Tasty Lemon",
@@ -55,14 +50,23 @@ const Portfolio = () => {
         }
     ];
 
+export const Portfolio = () => {
+
+    let navigate = useNavigate()
+    
+    
+
+
+
     return (
+				<>
+
 		<div>
 			<div className="box56">
 				<h1>Portfolio Standard</h1>
 			</div>
         <div className="portfolio-container">
             {products.map((product) => (
-				<>
 					<div key={product.id} className="port-card">
                     <div className="card-image">
                         <img src={product.image} alt={product.title} />
@@ -72,11 +76,11 @@ const Portfolio = () => {
                         <span className="category">{product.category}</span>
                     </div>
 					<div className='overlay'>
-						<CiCircleChevRight className="overlay-icon" onClick={()=> navigate(`/portfolio/:${product.id}`)}/>
+						<CiCircleChevRight className="overlay-icon" onClick={() => navigate(`/portfolio/${product.id}`)}
+/>
 					</div>
                         
 					</div>
-				</>
                 
 
             ))}
@@ -84,6 +88,8 @@ const Portfolio = () => {
 
 		<NewsLetter/>
 		</div>
+				</>
+
     )
 }
 

@@ -47,3 +47,89 @@ line-height: 165%;
 letter-spacing: 0%;
 
 }
+@media (max-width: 992px) {
+
+  .box42{
+    height: 320px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .containerImg{
+    width: 100%;
+    padding: 40px;
+  }
+	.containerImg img{
+		width: 100%;
+	}
+
+  .containerText{
+    padding: 0 60px;
+  }
+
+  .boxCards{
+    padding: 40px 60px;
+  }
+
+  .boxCard1{
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .boxText1{
+    padding: 30px 0;
+  }
+
+  .boxCards h2{
+    font-size: 28px;
+  }
+
+  .boxCards p{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+
+  .box42{
+    height: 220px;
+  }
+
+  .containerImg{
+    padding: 20px;
+  }
+
+  .containerText{
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .boxCards{
+    padding: 30px 20px;
+  }
+
+  .boxCard1{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .boxText1{
+    padding: 20px 0;
+  }
+
+  .boxText1 h3{
+    font-size: 18px;
+  }
+
+  .boxText1 p{
+    font-size: 14px;
+  }
+
+  .boxCards h2{
+    font-size: 22px;
+  }
+
+  .boxCards p{
+    font-size: 14px;
+  }
+}

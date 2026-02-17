@@ -22,14 +22,14 @@ font-size: 20px;
 line-height: 165%;
 letter-spacing: 0%;
 }
-.box47{
+.box47 img{
   width: 100%;
   height: 650px;
-  align-items: center;
+  /* align-items: center;
   justify-content: center;
   display: flex;
-  text-align: center;
-  background-image: url("../../assets/Image (7).svg");
+  text-align: center; */
+  /* background-image: url("../../assets/Image (7).svg"); */
 }
 .OrganFood{
 	justify-content: center;
@@ -46,4 +46,65 @@ letter-spacing: 0%;
 }
 .OrganFood h2{
 	font-size: 50px;
+}
+@media (max-width: 992px) {
+
+    .container11{
+        padding: 30px 50px;
+        text-align: center;
+    }
+
+    .OrganFood{
+        width: 100%;
+        left: 0;
+        top: -50px;
+        padding: 40px;
+    }
+
+    .OrganFood h2{
+        font-size: 36px;
+    }
+
+    .box47 img{
+        height: 450px;
+    }
+		#img111{
+			width: 90% ;
+		}
+}
+
+
+@media (max-width: 600px) {
+
+    .container11{
+        padding: 20px;
+    }
+
+    .container11 h2{
+        font-size: 26px;
+    }
+
+    .container11 p{
+        font-size: 16px;
+    }
+
+    .OrganFood{
+        width: 100%;
+        padding: 25px;
+        top: -30px;
+        border-radius: 20px;
+    }
+
+    .OrganFood h2{
+        font-size: 24px;
+    }
+
+    .OrganFood p{
+        font-size: 16px;
+    }
+
+    .box47 img{
+        height: 300px;
+        object-fit: cover;
+    }
 }

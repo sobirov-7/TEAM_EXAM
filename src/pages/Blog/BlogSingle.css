@@ -73,3 +73,84 @@ letter-spacing: 0%;
 .OrganFood h2{
 	font-size: 50px;
 }
+@media (max-width: 992px) {
+
+  .BlogSingle{
+    padding: 30px 60px;
+  }
+
+  .BlogSingle h1{
+    font-size: 36px;
+  }
+
+  .BlogSingle h2{
+    font-size: 28px;
+  }
+
+  .BlogSingle p,
+  .BlogSingle li{
+    font-size: 18px;
+  }
+
+  .box45{
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .OrganFood{
+    width: 100%;
+    left: 0;
+    top: -50px;
+    padding: 40px;
+  }
+
+  .OrganFood h2{
+    font-size: 34px;
+  }
+}
+
+
+@media (max-width: 600px) {
+
+  .BlogSingle{
+    padding: 20px;
+  }
+
+  .BlogSingle h1{
+    font-size: 26px;
+  }
+
+  .BlogSingle h2{
+    font-size: 22px;
+  }
+
+  .BlogSingle h3{
+    font-size: 16px;
+    padding: 25px 15px;
+  }
+
+  .BlogSingle p,
+  .BlogSingle li{
+    font-size: 16px;
+  }
+
+  .box45{
+    height: 280px;
+  }
+
+  .OrganFood{
+    width: 100%;
+    padding: 25px;
+    top: -30px;
+    border-radius: 20px;
+  }
+
+  .OrganFood h2{
+    font-size: 24px;
+  }
+
+  .OrganFood p{
+    font-size: 16px;
+  }
+}
